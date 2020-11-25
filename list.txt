@@ -1,0 +1,8 @@
+'(13    //car
+      (5    //cdr of 13, car 5
+            (1 () ())    //cdr of 13,5, car 1
+            (8 ()    //cdr of 13,5, car 8
+                  (9 () ())))    //cdr of 13,5,8, car 9
+      (22    //cdr of 13, car 22
+            (17 () ())    //cdr of 13,22, car 17
+            (25 () () )))   //cdr of 13,22, car 25
